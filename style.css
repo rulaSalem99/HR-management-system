@@ -1,0 +1,62 @@
+/* this file for styling header and footer */
+
+body {
+    background-color: #F1DEC9;
+  }
+
+/* Header */
+header {
+    background-color: #8D7B68;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: white;
+    display: inline-block;
+    margin: 0;
+  }
+  
+ .logo {
+    max-width: 60px;
+    height: auto;
+    position: absolute; 
+    top: 40px; 
+    left: 40px; 
+  }
+  
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+  }
+  
+  li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px ; 
+    background-color: #333;
+    border-radius: 5px; 
+  }
+  
+ /* Footer */
+footer {
+    background-color: #8D7B68;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    bottom: 100;
+    width: 100%;
+  }
